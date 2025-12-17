@@ -4,6 +4,8 @@ FastAPI wrapper for simple_agent.py so the Go server can call it via HTTP.
 Only exposes /ask (POST) and /status (GET). No auth here—Go handles it.
 """
 
+"""This is an ** IMPORTANT FILE ** Do not delete this file for the program to run"""
+
 import os
 import json
 import asyncio
