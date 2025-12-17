@@ -1,9 +1,5 @@
-#!/usr/bin/env python3
-"""
-Simple Autonomous Coding Agent
-Clean terminal interface with proper input handling
-"""
 
+"""This file can be run individually if you really want to test out the basic capabilites of the AI agent in the terminal I recommend using this single python code is more than enough. You can experiment all you want with this"""
 import os
 import sys
 import subprocess
