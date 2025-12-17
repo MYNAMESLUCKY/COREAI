@@ -1,0 +1,5 @@
+{"ts":"2025-12-17T09:49:55Z","kind":"http","ip":"127.0.0.1:55555","method":"GET","path":"/","status":404}
+{"ts":"2025-12-17T09:49:55Z","kind":"http","ip":"127.0.0.1:55555","method":"GET","path":"/favicon.ico","status":404}
+{"ts":"2025-12-17T09:50:06Z","kind":"http","ip":"127.0.0.1:55576","method":"POST","path":"/v1/ask","status":200}
+{"ts":"2025-12-17T09:50:50Z","kind":"http","ip":"127.0.0.1:55657","method":"POST","path":"/v1/ask","status":200}
+{"ts":"2025-12-17T09:50:55Z","kind":"http","ip":"127.0.0.1:55667","method":"POST","path":"/v1/ask","status":200}

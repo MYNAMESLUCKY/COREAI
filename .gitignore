@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.pdb
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+backend/venv/
+
+# Local memory / vector stores
+backend/.chroma/
+backend/agent_memory.json
+backend/go_agent/agent_memory_vectors.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Binaries
+*.exe
+*.exe~

@@ -1,0 +1,15 @@
+services:
+  agent:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - OLLAMA_HOST=http://host.docker.internal:11434
+      - OLLAMA_MODEL=deepseek-v3.1:671b-cloud
+      - OLLAMA_EMBED_MODEL=nomic-embed-text:latest
+      - AGENT_RATE_LIMIT_PER_MIN=60
+      # Set API keys (comma separated) to require auth
+      # - AGENT_API_KEYS=change-me
+      # Optional filesystem access
+      - AGENT_ENABLE_FS=false
+      - AGENT_ALLOW_DIRS=.

@@ -1,0 +1,12 @@
+langchain_ollama
+langchain-mcp-adapters
+fastmcp
+tavily-python
+aiofiles
+aiohttp
+langchain
+langchain-core
+pydantic
+chromadb
+fastapi
+uvicorn[standard]
